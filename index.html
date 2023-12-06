@@ -8,6 +8,8 @@
 	<meta name="robots" content="index, follow">
 	<title>Sunset store</title>
 	<link rel="stylesheet" href="styles.css" type="text/css">
+	<link rel="stylesheet" href="estilosBarra.css" type="text/css">
+	<link rel="stylesheet" href="mediaq.css" type="text/css">
   <link rel="icon" type="images/png" href="imagenes\iconos\Isologo_Sunset.png" >
 
 </head>
@@ -17,14 +19,12 @@
 				<div class="logo">
 					<img src="imagenes\iconos\bannerBar.png"  width="15%" height= "15%">
 				</div>
-				<div class="buscador">
-					<input type="text" placeholder="Buscar...">
-				</div>
+				
 				<div>
 			        <ul>
 			            <li><a href="#barra">Inicio</a></li>
 			            <li><a href="#catalogo">Catálogo</a></li>
-			            <li><a href="#">Contactos</a></li>
+			            <li><a href="#contactos">Contactos</a></li>
 			            <li><a href="#inicioses"><img src="imagenes\iconos\carrito.png" alt="Carrito de compras" class="cart-img" id="cart-img"></a></li>
 			        </ul>
 			    </div>
@@ -35,7 +35,7 @@
 		</div>
 </div>
 
-<p class="fra1">La felicidad está en los detalles, y nuestros detalles están en cada prenda.</p>
+<p class="fra">La felicidad está en los detalles, y nuestros detalles están en cada prenda.</p>
 
 	<h1>Nuevos ingresos</h1>
 <div class="container">
@@ -52,22 +52,22 @@
             </div>
 
             <div class="content">
-            	<div class="slide"><a href="#"><img src="imagenes\ellas\17.jpeg"></a>
-            	<div class="text">
+            	<div class="slide">
+            		<div class="img">
+            		<a href="#"><img src="imagenes\ellas\17.jpeg" style="border-radius: 50px 0 0 50px;"></a></div>
+            		<div class="text" style="margin: 0px 90px 0px -10px">
             			<p class="pone">Blusa Trend colección "No People" Algodón | Todos los talles</p>
-		            	<hr/>
 		            	<br/>
 		            	<p class="ptw">$15700</p> 
 		            	<br/>
 		            	<p class="pth">En 12x $1500</p>
-
+					</div>
             	</div>
-            	</div>
 
-            	<div class="slide"><a href="#"><img src="imagenes\ellos\7.jpeg"></a>
-            	<div class="text">
+            	<div class="slide"><div class="img"><a href="#"><img src="imagenes\ellos\7.jpeg"></a></div>
+            	<div class="text" style="margin: 0px 90px 0px -10px">
             			<p class="pone">Remera Colección "No People" 100% Algodón | Todos los talles</p>
-		            	<hr/>
+		            	
 		            	<br/>
 		            	<p class="ptw">$12000</p> 
 		            	<br/>
@@ -76,10 +76,10 @@
             	</div>
             	</div>
 
-            	<div class="slide"><a href="#"><img src="imagenes\chicos\4.jpeg"></a>
-            	<div class="text">
+            	<div class="slide"><div class="img"><a href="#"><img src="imagenes\chicos\4.jpeg" style="border-radius: 0px 50px 50px 0px";></a></div>
+            	<div class="text" style="margin: 0px 20px 0px 30px;">
             			<p class="pone"> Remera Chico 100% algodón | Todos los talles</p>
-		            	<hr/>
+		         
 		            	<br/>
 		            	<p class="ptw">$9800</p> 
 		            	<br/>
@@ -91,8 +91,9 @@
 
         </div>
 </div>
+<br/>
+<p class="fra">Descubre el estilo que te define. ¡Explora nuestra colección y hazlo tuyo hoy mismo!</p>
 
-<p class="fra1">La felicidad está en los detalles, y nuestros detalles están en cada prenda.</p>
 <br/>
 <h1 id="catalogo">Catálogo</h1>
 <div class="catalogo">
@@ -108,16 +109,18 @@
 </div>
 
 <div class="sesion">
-	<p class="tit" id="inicioses">¡Inicia Sesión!</p>
-	<input type="email" name="Correo" placeholder="Correo electrónico" id="sesion">
-	<input type="password" name="Contraseña" placeholder="Contraseña" id="sesion">
-	<input type="submit" name="Iniciar Sesión" placeholder="Iniciar Sesión" id="sesion">
+	<p class="tit" id="inicioses">aqui va lo que hace facundito</p>
+	
 </div>
+
+<div id="contactos">
 <h1>¡Contáctanos!</h1>
+
 <div class="Contactos">
-	<center><a href="https://msng.link/o?3434467879=wa"> <img src="imagenes\iconos\wsp.gif" alt="centered image"> </a></center>
-	<center><a href="https://msng.link/o?giabarreto=ig"> <img src="imagenes\iconos\insta.gif" alt="centered image"> </a></center>
-	<center><a href="https://msng.link/o?giabarr=tg"> <img src="imagenes\iconos\face.gif" alt="centered image"> </a></center>
+	<a href="https://msng.link/o?3434467879=wa"> <img src="imagenes\iconos\wsp.gif" alt="centered image"> </a>
+	<a href="https://msng.link/o?giabarreto=ig"> <img src="imagenes\iconos\insta.gif" alt="centered image"> </a>
+	<a href="https://msng.link/o?giabarr=tg"> <img src="imagenes\iconos\face.gif" alt="centered image"></a>
+</div>
 </div>
 <br/>
 <br/>

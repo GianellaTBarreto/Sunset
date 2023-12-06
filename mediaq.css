@@ -1,0 +1,147 @@
+/*Dispositivos chicos*/
+@media screen and (max-width: 576px){
+    .banner1{
+    display: inline-block;
+    margin: 10px;
+    }
+    .sunset{
+    width: 80%;
+    height: 80%;
+    margin: 40px;
+}
+
+.palmeras{
+    display: none;
+}
+    h1{
+        padding: 40px;
+        font-size: 40px;
+    }
+
+        /*Carrusel*/
+
+    .slider input{
+    visibility: hidden;
+    display: none;
+    }
+    .bottons{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        bottom: 15px;
+        gap: 116px;
+    }
+    .bottons label{
+        width: 20px;
+        height: 20px;
+        background-color: #FEAA7D;
+        border-radius: 50%;
+        opacity: 0.5;
+        cursor: pointer;
+        z-index: 1;
+        transition: 300ms ease-in-out;
+    }
+    .bottons label:hover{
+        scale: 1.2;
+        opacity: 1;
+    }
+
+    .slider input:nth-child(1):checked ~ .bottons label:nth-child(1), 
+    .slider input:nth-child(2):checked ~ .bottons label:nth-child(2),
+    .slider input:nth-child(3):checked ~ .bottons label:nth-child(3){
+        opacity: 1;
+        scroll-margin: 1.2;
+        width: 40px;
+    }
+
+    .content{
+        position: relative;
+        width: 300vw;
+        display: flex;
+        transition: 400ms ease-in-out;
+    }
+
+    .slide{
+        position: relative;
+        padding: 20px;
+        width: 90%;
+        height: 28vh;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+
+    .slider input:nth-child(1):checked ~ .content{
+        left: 0;
+    }
+    .slider input:nth-child(2):checked ~ .content{
+        left: -100vw;
+    }
+    .slider input:nth-child(3):checked ~ .content{
+        left: -200vw;
+    }
+    .content img{
+        display: flex;
+        width: 612px;
+        height: 612px;
+        overflow: hidden;
+        overflow-clip-margin: content-box;
+    }
+        .container{
+            height: 35vh;
+        }
+        .content{
+            position: relative;
+            width: 300vw;
+            display: flex;
+            transition: 400ms ease-in-out;
+            border: none;
+        }
+        
+        .content img{
+            width: 250px;
+            height: 250px;
+            border: none;
+            border-radius: 50px 0 0 50px;
+        }
+        .text{
+        color: black;
+        margin: 1px;
+        padding: 0;
+        height: 30vh;
+        border-left: none;
+        }
+        .content .text .pone{
+        margin: 20px;
+        font-size: 20px;
+        text-align: left;
+        }
+        .content .text .ptw{
+            margin: -16px;
+            font-size: 30px;
+        }
+        .content .text .pth{
+            margin: 5px;
+            font-size: 10px;
+        }
+    
+
+
+    /*Catalogo*/
+
+    .catalogo{
+        overflow: hidden;
+        display: flex;
+
+    }
+    .catalogo{
+        overflow: hidden;
+        display: inline;
+        margin: 40px;
+    }
+    .bann{
+        padding: 0em 0em 0em 5em;
+    }
+    }   
