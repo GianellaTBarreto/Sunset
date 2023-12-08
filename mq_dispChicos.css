@@ -27,7 +27,7 @@
 /*-----------------------------finBannerPrincipal-------------------------------*/
 h1{
     padding: 40px;
-    font-size: 40px;
+    font-size: 200%;
     text-align: center;
 }
 
@@ -43,7 +43,7 @@ h1{
         width: 100%;
         display: flex;
         justify-content: center;
-        bottom: -32px;
+        bottom: -5%;
         gap: 57px;
     }
     .bottons label{
@@ -126,12 +126,12 @@ h1{
         }
         .content .text .pone{
         margin: 20px;
-        font-size: 20px;
-        text-align: left;
+        font-size: 120%;
+        text-align: justify;
         }
         .content .text .ptw{
             margin: -16px;
-            font-size: 30px;
+            font-size: 100%;
             text-align: center;
         }
         .content .text .pth{
