@@ -1,9 +1,20 @@
-/*Dispositivos chicos*/
+
 @media screen and (max-width: 576px){
+/*------------------------------------frases-------------------------------------*/
+    .fra{
+        background-color: black;
+        color: white;
+        padding: 1em;
+        text-align: center;
+    }
+/*--------------------------------finFrases-----------------------------------*/
+
+/*-----------------------------bannerPrincipal-------------------------------*/
     .banner1{
     display: inline-block;
     margin: 10px;
     }
+
     .sunset{
     width: 80%;
     height: 80%;
@@ -13,12 +24,15 @@
 .palmeras{
     display: none;
 }
-    h1{
-        padding: 40px;
-        font-size: 40px;
-    }
+/*-----------------------------finBannerPrincipal-------------------------------*/
+h1{
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+}
 
-        /*Carrusel*/
+
+/*-----------------------------Carrusel----------------------------*/
 
     .slider input{
     visibility: hidden;
@@ -29,8 +43,8 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        bottom: 15px;
-        gap: 116px;
+        bottom: -32px;
+        gap: 57px;
     }
     .bottons label{
         width: 20px;
@@ -84,33 +98,30 @@
     }
     .content img{
         display: flex;
-        width: 612px;
-        height: 612px;
+        width: 80%;
+        height: 80%;
         overflow: hidden;
         overflow-clip-margin: content-box;
     }
         .container{
-            height: 35vh;
+            height: 370px;
         }
         .content{
             position: relative;
             width: 300vw;
+            height: 250px;
+            border: none;
             display: flex;
             transition: 400ms ease-in-out;
             border: none;
         }
         
-        .content img{
-            width: 250px;
-            height: 250px;
-            border: none;
-            border-radius: 50px 0 0 50px;
-        }
+
         .text{
         color: black;
-        margin: 1px;
+        margin: 5px;
         padding: 0;
-        height: 30vh;
+        height: 28vh;
         border-left: none;
         }
         .content .text .pone{
@@ -121,15 +132,17 @@
         .content .text .ptw{
             margin: -16px;
             font-size: 30px;
+            text-align: center;
         }
         .content .text .pth{
             margin: 5px;
             font-size: 10px;
+            text-align: center;
         }
     
+/*-----------------------------finCarrusel----------------------------*/
 
-
-    /*Catalogo*/
+/*-----------------------------Catalogo-------------------------------*/
 
     .catalogo{
         overflow: hidden;
@@ -144,4 +157,10 @@
     .bann{
         padding: 0em 0em 0em 5em;
     }
-    }   
+    .bann img{
+    width: 80%;
+    height: auto;
+    transition: none;
+}
+/*-----------------------------finCatalogo-------------------------------*/
+} /*cierre de MQ*/

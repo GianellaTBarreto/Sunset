@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-/*Estilos generales*/
+/*------------------------------------estilosGenerales-------------------------------------*/
 * {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+/*-----------------------------Contactos-------------------------------*/
+.contactos{
+    background: linear-gradient(to top, #757CA7, white);
+}
+.contactos .redes{
+    display: flex;
+    justify-content: space-evenly;
+    transition: none;
+}
+/*-----------------------------finContactos-------------------------------*/
+/*------------------------------------finEstilosGenerales-------------------------------------*/
+
+
+/*MQ*/
 @media screen and (min-width: 1001px){
 
-/*Portada*/
+/*-----------------------------bannerPrincipal-------------------------------*/
 .banner1{
     display: flex;
     justify-content: space-evenly;
@@ -26,8 +40,8 @@
     height: 30%;
     margin: 5px;
 }
-
-/*Frase 1*/
+/*-----------------------------finBannerPrincipal-------------------------------*/
+/*------------------------------------frases-------------------------------------*/
 .fra{
     padding: 0.5cm;
     text-align: center;
@@ -35,19 +49,19 @@
     color: white;
     font-size: 20px;
 }
-
+/*--------------------------------finFrases-----------------------------------*/
 /*Frase: Nuevos ingresos y Catálogo*/
 h1{
-    padding: 20px;
+    padding: 30px;
     font-size: 70px;
     text-align: center;
 }
 
-/*Carruserl*/
+/*-----------------------------Carrusel----------------------------*/
 .slider{
     margin: 0;
     width: 100%;
-    height: 700px;
+    height: 750px;
 }
 .slider input{
     display: none;
@@ -73,10 +87,9 @@ h1{
     transition: 300ms ease-in-out;;
 }
 .img img:hover{
-
-    box-shadow: 2px 2px 2px 2px #C8A4C0;
+    border: 1px solid #C98BA9;
 }
-/*Textos del carrusel*/
+
 .text{
     display: block;
     color: black;
@@ -97,10 +110,10 @@ h1{
     font-size: 15px;
     font-weight: 100;
 }
+/*-----------------------------finCarrusel----------------------------*/
 
-}/*cierre de MQ*/
 
-/*Catálogo*/
+/*-----------------------------Catalogo-------------------------------*/
 .catalogo{
     overflow: hidden;
     display: flex;
@@ -120,9 +133,7 @@ h1{
     height: auto;
     transition: 800ms ease-in-out;
  }
+/*-----------------------------finCatalogo-------------------------------*/
+}/*cierre de MQ*/
 
-#contactos, .Contactos{
-    background-image: linear-gradient(to right bottom, #757ca7, #8783ad, #978ab2, #a791b7, #b699bb, #c49bbc, #d19ebb, #dea1b9, #eda0ae, #f8a1a0, #fea48f, #feaa7d);
-
-}
  
