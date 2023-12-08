@@ -16,6 +16,10 @@ nav {
 .logo {
     display: flex;
 }
+.logo img{
+    width: 20%;
+    height: auto;
+}
 
 
 
