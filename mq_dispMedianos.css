@@ -9,7 +9,7 @@
     .sunset{
     width: 80%;
     height: 80%;
-    margin: 76px;
+    margin: auto;
 }
 
 .palmeras{
@@ -136,4 +136,4 @@ h1{
         padding: 0em 0em 0em 5em;
     }
 /*-----------------------------finCatalogo-------------------------------*/
-}
+}/**finMQ*/
