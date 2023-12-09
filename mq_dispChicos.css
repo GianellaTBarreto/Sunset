@@ -26,8 +26,8 @@
 }
 /*-----------------------------finBannerPrincipal-------------------------------*/
 h1{
-    padding: 40px;
-    font-size: 200%;
+    padding: 17px;
+    font-size: 150%;
     text-align: center;
 }
 
@@ -43,7 +43,7 @@ h1{
         width: 100%;
         display: flex;
         justify-content: center;
-        bottom: -5%;
+        bottom: 0%;
         gap: 57px;
     }
     .bottons label{
@@ -70,20 +70,22 @@ h1{
     }
 
     .content{
-        position: relative;
-        width: 300vw;
-        display: flex;
-        transition: 400ms ease-in-out;
-    }
-
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-wrap: nowrap;
+            width: 300vw;
+            height: 380px;
+            border: none;
+            transition: 400ms ease-in-out;
+        }
+    
     .slide{
         position: relative;
         padding: 20px;
         width: 90%;
         height: 28vh;
-        display: flex;
-        justify-content: left;
-        align-items: center;
+        display: block;
     }
 
 
@@ -97,46 +99,38 @@ h1{
         left: -200vw;
     }
     .content img{
-        display: flex;
+        padding: 2px;
+        margin: 2px;
         width: 80%;
-        height: 80%;
-        overflow: hidden;
-        overflow-clip-margin: content-box;
+        height: auto;
+        display: block;
     }
-        .container{
-            height: 370px;
-        }
-        .content{
-            position: relative;
-            width: 300vw;
-            height: 250px;
-            border: none;
-            display: flex;
-            transition: 400ms ease-in-out;
-            border: none;
+        .container, .slider{
+            height: 420px;
         }
         
-
         .text{
+            display: block;
         color: black;
-        margin: 5px;
-        padding: 0;
+        text-align: center;
+        padding: 2px;
+        width: 100%;
         height: 28vh;
         border-left: none;
         }
         .content .text .pone{
         margin: 20px;
-        font-size: 120%;
+        font-size: 100%;
         text-align: justify;
         }
         .content .text .ptw{
             margin: -16px;
-            font-size: 100%;
+            font-size: 90%;
             text-align: center;
         }
         .content .text .pth{
             margin: 5px;
-            font-size: 10px;
+            font-size: 80%;
             text-align: center;
         }
     
