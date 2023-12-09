@@ -79,14 +79,14 @@ h1{
     height: auto;
 }
 
-.img img{
+.content img{
     margin: 1em;
     padding: 1em;
     width: 500px;
     height: 500px;
     transition: 300ms ease-in-out;;
 }
-.img img:hover{
+.content img:hover{
     border: 1px solid #C98BA9;
 }
 

@@ -1,7 +1,8 @@
 @media screen and (min-width: 576px) and (max-width: 1000px){
 	/*-----------------------------bannerPrincipal-------------------------------*/
     .banner1{
-    display: block;
+    display: flex;
+    justify-content: center;
     position: relative;
     margin: 0px;
     }
@@ -9,7 +10,7 @@
     .sunset{
     width: 80%;
     height: 80%;
-    margin: auto;
+    margin: 10%;
 }
 
 .palmeras{
@@ -27,8 +28,8 @@
 /*--------------------------------finFrases-----------------------------------*/
 /*Frase: Nuevos ingresos y Catálogo*/
 h1{
-    padding: 10px;
-    font-size: 50px;
+    padding: 5%;
+    font-size: 380%;
     text-align: center;
 }
 /*-----------------------------Carrusel----------------------------*/
@@ -41,7 +42,7 @@ h1{
         width: 100%;
         display: flex;
         justify-content: center;
-	    bottom: -169px;
+	    bottom: -35%;
     	gap: 64px;
     }
     .bottons label{
@@ -100,7 +101,14 @@ h1{
         overflow: hidden;
     }
         .container{
-            height: 370px;
+            height: 400px;
+        }
+        .content .slide a{
+            padding: 0;
+            border: 0;
+            margin: 0;
+            display: flex;
+            width: 80%;
         }
 
         .text{
