@@ -8,7 +8,7 @@
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     height: auto;
-    background: #FEAA7D;
+    background: #757CA7;
 }
 /*-------------------------MQ GRANDE-------------------*/
 @media screen and (min-width: 1001px){
@@ -60,7 +60,7 @@ font-size: 500%;
     margin-right: 44%;
     padding: 10px;
     font-size: 200%;
-    background: #FEAA7D;
+    background: #757CA7;
     color: white;
     border-radius: 50px;
 }
@@ -110,7 +110,7 @@ font-size: 500%;
         margin-right: 44%;
         padding: 10px;
         font-size: 200%;
-        background: #FEAA7D;
+        background: #757CA7;
         color: white;
         border-radius: 50px;
     }
@@ -160,7 +160,7 @@ font-size: 500%;
         margin-right: 44%;
         padding: 10px;
         font-size: 120%;
-        background: #FEAA7D;
+        background: #757CA7;
         color: white;
         border-radius: 50px;
     }
