@@ -2,11 +2,18 @@
 
 /*------------------------------------estilosGenerales-------------------------------------*/
 * {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+/* Fondo */
+.fondo {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right bottom, #757ca7, #867eab, #9781ad, #a883ad, #b786ac, #c588aa, #d28ba7, #de8fa2, #eb939a, #f59991, #fba187, #feaa7d);
+    }
+
 /*-----------------------------Contactos-------------------------------*/
 .contactos{
     background: linear-gradient(to top, #757CA7, white);

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.fondo {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: auto;
+    background: #FEAA7D;
+}
+h1{
+font-family: 'Kalnia', serif;
+text-align: center;
+font-size: 500%;
+}
+.catalogo{
+    margin: 10px 5px 0px 5px;
+    display: flex;
+}
+.imagen{
+    width: 40%;
+    height: auto;
+    margin: 0px 1px 0px 100px;
+}
+.catalogo img{
+    margin: 25px 0 0 100px;
+    width: 80%;
+    height: auto;
+    border-radius: 50px;
+}
+.texto{
+    width: 40%;
+    margin: 0px 150px 0 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+.t1{
+    font-size: 300%;
+}
+.t2{
+    display: inline;
+    padding: 5px;
+    font-size: 150%;
+    background: rgb(128, 128, 128, 0.5);
+    color: white;
+    border-radius: 50px;
+}
+.t3{
+    font-size: 200%;
+}
+.t4{
+    font-size: 200%;
+}
+.t5{
+    float: none;
+    margin-left: 39%;
+    margin-right: 44%;
+    padding: 10px;
+    font-size: 200%;
+    background: #FEAA7D;
+    color: white;
+    border-radius: 50px;
+}
+.t6{
+    font-size: 100%;
+    text-align: center;
+}

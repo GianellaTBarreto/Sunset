@@ -1,16 +1,12 @@
 
-/* Fondo */
-.fondo {
-    width: 100%;
-    height: auto;
-    background-image: linear-gradient(to right bottom, #757ca7, #8783ad, #978ab2, #a791b7, #b699bb, #c49bbc, #d19ebb, #dea1b9, #eda0ae, #f8a1a0, #fea48f, #feaa7d);
-}
+/*-----------------------------Contactos-------------------------------*/
 
 /* Barra de navegación */
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 10px;
+
 }
 
 .logo {
@@ -38,6 +34,7 @@ li {
 }
 
 li a {
+    font-size: 100%;
     color: white;
     padding: 10px 10px;
     text-decoration: none;
