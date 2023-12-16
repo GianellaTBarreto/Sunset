@@ -22,13 +22,16 @@ h1{
 	padding: 1em;
 }
 .catalogo img{
-	padding: 2em;
+	margin: 10px;
+	padding: 0px;
 	transition: none;
-	width: 25%;
+	width: 40%;
 	height: auto;
 }
 .catalogo img:hover{
-	width: 28%;
-	height: auto;
-	box-shadow: 2px 1px 1px 2px #C98BA9;
+	box-shadow: 2px 2px 2px 2px #C98BA9;
+}
+footer{
+background-image: linear-gradient(to right bottom, #757ca7, #867eab, #9781ad, #a883ad, #b786ac, #c588aa, #d28ba7, #de8fa2, #eb939a, #f59991, #fba187, #feaa7d);
+
 }

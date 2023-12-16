@@ -52,6 +52,7 @@ li a:hover {
     height: 25px;
     margin: 2px;
 }
+
 /*MQ de barra para disp chicos y medianos*/
 @media screen and (max-width:1000px){
     .logo{

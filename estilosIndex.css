@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&display=swap');
 /*------------------------------------estilosGenerales-------------------------------------*/
 * {
     margin: 0px;
@@ -13,20 +14,86 @@
     background-image: linear-gradient(to right bottom, #757ca7, #867eab, #9781ad, #a883ad, #b786ac, #c588aa, #d28ba7, #de8fa2, #eb939a, #f59991, #fba187, #feaa7d);
     }
 
-/*-----------------------------Contactos-------------------------------*/
-.contactos{
-    background: linear-gradient(to top, #757CA7, white);
-}
-.contactos .redes{
+.avisos{
+    background: #dcdcdc;
+    padding: 40px;
+    margin: 0;
     display: flex;
     justify-content: space-evenly;
-    transition: none;
+    text-align: center;
 }
-/*-----------------------------finContactos-------------------------------*/
+footer{
+background-image: linear-gradient(to right bottom, #757ca7, #867eab, #9781ad, #a883ad, #b786ac, #c588aa, #d28ba7, #de8fa2, #eb939a, #f59991, #fba187, #feaa7d);
+
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 20px;
+}
+.catalogoFooter{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Kalnia', serif;
+    font-size: 300%;
+}
+.catalogoFooter a{
+    text-decoration: none;
+}
+.catalogoFooter p{
+    color: white;
+    font-size: 50%;
+    line-height: 55px;
+    transition: none;
+    text-align: left;
+}
+.catalogoFooter p:hover{
+    letter-spacing: 5px;
+}
+.logoFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.logoFooter img{
+    width: 50%;
+    height: auto;
+}
+.contactosFooter{
+    display: block;
+}
+.redes{
+    padding: 1em;
+    display: block;
+}
+.redes img{
+    background: white;
+    border-radius: 20px;
+    width: 6%;
+    height: auto;
+}
+.tex{
+    margin: 5px 0px;
+    line-height: 50px;
+    color: white;
+}
+.resaltado{
+    display: inline-block;
+    padding: 1px;
+    color: #FEAA7D;
+    background: white;
+    line-height: 28px;
+    font-size: 100%;
+    border-radius: 25px;
+}
+
 /*------------------------------------finEstilosGenerales-------------------------------------*/
 
 
-/*MQ*/
+/*MQ GRANDES*/
 @media screen and (min-width: 1001px){
 
 /*-----------------------------bannerPrincipal-------------------------------*/
@@ -47,6 +114,68 @@
     margin: 5px;
 }
 /*-----------------------------finBannerPrincipal-------------------------------*/
+/*-----------------------------nosotros-------------------------------*/
+
+.nosotros{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: auto;
+     background-image: linear-gradient(to right bottom, #757ca7, #867eab, #9781ad, #a883ad, #b786ac, #c588aa, #d28ba7, #de8fa2, #eb939a, #f59991, #fba187, #feaa7d);
+}
+.palmera{
+    padding: 50px 0px;
+    width: auto;
+    height: auto;
+    margin: 0px;
+}
+.palmera img{
+    background: white;
+    margin: 0px;
+    border-radius: 0px 300px 300px 0px;
+    width:600px;
+    height: auto;
+}
+
+.desc{
+    color: white;
+    margin: 40px 100px ;
+    padding: 10px;
+    width: 50%;
+    height: auto;
+}
+.htwo{
+    background-color: white;
+    border-radius: 50px;
+}
+h2{
+    color:#fff;
+    background-image:linear-gradient(to right bottom, #757ca7, #867eab, #9781ad, #a883ad, #b786ac, #c588aa, #d28ba7, #de8fa2, #eb939a, #f59991, #fba187, #feaa7d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color:#fff;
+    font-family: 'Kalnia', serif;
+    font-size: 480%;
+    text-align: center;
+    padding: 10px;
+}
+.texto1, .texto2, .texto3{
+    display: block;
+    padding: 5px;
+    font-size: 150%;
+    line-height: 35px;
+}
+.res{
+    display: inline;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    color: #757ca7;
+}
+
+/*-----------------------------Finnosotros-------------------------------*/
 /*------------------------------------frases-------------------------------------*/
 .fra{
     padding: 0.5cm;
@@ -135,14 +264,21 @@ h1{
     transition: none;
 }
  .bann img:hover{
-    width: 85%;
-    height: auto;
-    transition: 800ms ease-in-out;
+    width: 79.9%;
+    transition: 1ms ease-in-out;
+    border: 1px solid #C98BA9;
+    border-radius: 250px 250px 0px 0px;
  }
 /*-----------------------------finCatalogo-------------------------------*/
 }/*cierre de MQ*/
 
+
+/*MQ MEDIANOS*/
 @media screen and (min-width: 576px) and (max-width: 1000px){
+    .info{
+    display: block;
+}
+
     /*-----------------------------bannerPrincipal-------------------------------*/
     .banner1{
     display: flex;
@@ -161,6 +297,68 @@ h1{
     display: none;
 }
 /*-----------------------------finBannerPrincipal-------------------------------*/
+/*-----------------------------nosotros-------------------------------*/
+
+.nosotros{
+    box-sizing: border-box;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+     background-image: linear-gradient(to right bottom, #757ca7, #867eab, #9781ad, #a883ad, #b786ac, #c588aa, #d28ba7, #de8fa2, #eb939a, #f59991, #fba187, #feaa7d);
+}
+.palmera{
+    padding: 70px 0px;
+    width: auto;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+}
+.palmera img{
+    background: white;
+    margin: 0px;
+    border-radius: 0px 300px 300px 0px;
+    width:300px;
+    height: auto;
+}
+.desc{
+    color: white;
+    margin: 50px 0px ;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+.htwo{
+    background-color: white;
+    border-radius: 50px;
+}
+h2{
+    color:#fff;
+    background-image:linear-gradient(to right bottom, #757ca7, #867eab, #9781ad, #a883ad, #b786ac, #c588aa, #d28ba7, #de8fa2, #eb939a, #f59991, #fba187, #feaa7d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color:#fff;
+    font-family: 'Kalnia', serif;
+    font-size: 200%;
+    text-align: center;
+    padding: 10px;
+}
+.texto1, .texto2, .texto3{
+    display: block;
+    padding: 5px;
+    font-size: 80%;
+    line-height: 22px;
+}
+.res{
+    display: inline;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    color: #757ca7;
+}
+
+/*-----------------------------Finnosotros-------------------------------*/
+
 /*------------------------------------frases-------------------------------------*/
 .fra{
     padding: 0.5cm;
@@ -186,7 +384,7 @@ h1{
         width: 100%;
         display: flex;
         justify-content: center;
-        bottom: -40%;
+        bottom: -90%;
         gap: 64px;
     }
     .bottons label{
@@ -279,18 +477,29 @@ h1{
         }
 /*-----------------------------finCarrusel----------------------------*/
 /*-----------------------------Catalogo-------------------------------*/
-    .bann img{
+.bann img{
     width: 80%;
     height: auto;
+    margin: 20px;
     transition: none;
 }
+ .bann img:hover{
+    transition: 1ms ease-in-out;
+    border: 1px solid #C98BA9;
+    border-radius: 300px 300px 0px 0px;
+ }
 .bann{
         padding: 0em 0em 0em 5em;
     }
 /*-----------------------------finCatalogo-------------------------------*/
 }/**finMQ*/
 
+
+/*MQ CHICOS*/
 @media screen and (max-width: 576px){
+    .info{
+    display: block;
+}
 /*------------------------------------frases-------------------------------------*/
     .fra{
         background-color: black;
@@ -316,6 +525,70 @@ h1{
     display: none;
 }
 /*-----------------------------finBannerPrincipal-------------------------------*/
+/*-----------------------------nosotros-------------------------------*/
+
+.nosotros{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+     background-image: linear-gradient(to right bottom, #757ca7, #867eab, #9781ad, #a883ad, #b786ac, #c588aa, #d28ba7, #de8fa2, #eb939a, #f59991, #fba187, #feaa7d);
+     border-radius:0px 0px 50px 50px; ;
+}
+.palmera{
+    padding: 0% 50%;
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+}
+.palmera img{
+    background: white;
+    margin: 0px;
+    border-radius: 0px 0px 300px 300px;
+    width:300px;
+    height: auto;
+}
+.desc{
+    color: white;
+    margin: 50px 0px ;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+.htwo{
+    background-color: white;
+    border-radius: 50px;
+}
+h2{
+    color:#fff;
+    background-image:linear-gradient(to right bottom, #757ca7, #867eab, #9781ad, #a883ad, #b786ac, #c588aa, #d28ba7, #de8fa2, #eb939a, #f59991, #fba187, #feaa7d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color:#fff;
+    font-family: 'Kalnia', serif;
+    font-size: 220%;
+    text-align: center;
+    padding: 10px;
+}
+.texto1, .texto2, .texto3{
+    display: block;
+    padding: 10px;
+    font-size: 120%;
+    line-height: 27px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.res{
+    display: inline;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    color: #757ca7;
+}
+
+/*-----------------------------Finnosotros-------------------------------*/
+
 h1{
     padding: 17px;
     font-size: 150%;
@@ -324,108 +597,9 @@ h1{
 
 
 /*-----------------------------Carrusel----------------------------*/
-
-    .slider input{
-    visibility: hidden;
+.container {
     display: none;
-    }
-    .bottons{
-        position: absolute;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        bottom: 0%;
-
-        gap: 57px;
-    }
-    .bottons label{
-        width: 20px;
-        height: 20px;
-        background-color: #FEAA7D;
-        border-radius: 50%;
-        opacity: 0.5;
-        cursor: pointer;
-        z-index: 1;
-        transition: 300ms ease-in-out;
-    }
-    .bottons label:hover{
-        scale: 1.2;
-        opacity: 1;
-    }
-
-    .slider input:nth-child(1):checked ~ .bottons label:nth-child(1), 
-    .slider input:nth-child(2):checked ~ .bottons label:nth-child(2),
-    .slider input:nth-child(3):checked ~ .bottons label:nth-child(3){
-        opacity: 1;
-        scroll-margin: 1.2;
-        width: 40px;
-    }
-
-    .content{
-            position: relative;
-            overflow: hidden;
-            display: flex;
-            flex-wrap: nowrap;
-            width: 300vw;
-            height: 100%;
-            border: none;
-            transition: 400ms ease-in-out;
-        }
-    
-    .slide{
-        position: relative;
-        padding: 20px;
-        width: 90%;
-        height: 28vh;
-        display: block;
-    }
-
-
-    .slider input:nth-child(1):checked ~ .content{
-        left: 0;
-    }
-    .slider input:nth-child(2):checked ~ .content{
-        left: -100vw;
-    }
-    .slider input:nth-child(3):checked ~ .content{
-        left: -200vw;
-    }
-    .content img{
-        padding: 2px;
-        margin: 2px;
-        width: 80%;
-        height: auto;
-        display: block;
-    }
-        .container, .slider{
-            height: 500px;
-        }
-        
-        .text{
-            display: block;
-        color: black;
-        text-align: center;
-        padding: 2px;
-        width: 100%;
-        height: 28vh;
-        border-left: none;
-        }
-        .content .text .pone{
-        margin: 20px;
-        font-size: 100%;
-        text-align: justify;
-        }
-        .content .text .ptw{
-            margin: -16px;
-            font-size: 90%;
-            text-align: center;
-        }
-        .content .text .pth{
-            margin: 5px;
-            font-size: 80%;
-            text-align: center;
-        }
-    
+}
 /*-----------------------------finCarrusel----------------------------*/
 
 /*-----------------------------Catalogo-------------------------------*/
@@ -443,10 +617,23 @@ h1{
     .bann{
         padding: 0em 0em 0em 5em;
     }
-    .bann img{
+.bann img{
     width: 80%;
     height: auto;
+    padding: 20px;
     transition: none;
+}
+ .bann img:hover{
+    transition: 1ms ease-in-out;
+    border: 1px solid #C98BA9;
+    border-radius: 120px 120px 0px 0px;
+ }
+ .avisos{
+    background: #dcdcdc;
+    padding: 50px;
+    margin: 20px;
+    display: block;
+    text-align: center;
 }
 /*-----------------------------finCatalogo-------------------------------*/
 } /*cierre de MQ*/ 

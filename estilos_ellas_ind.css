@@ -10,6 +10,10 @@
     height: auto;
     background: #FEAA7D;
 }
+footer{
+background-image: linear-gradient(to right bottom, #757ca7, #867eab, #9781ad, #a883ad, #b786ac, #c588aa, #d28ba7, #de8fa2, #eb939a, #f59991, #fba187, #feaa7d);
+
+}
 /*-------------------------MQ GRANDE-------------------*/
 @media screen and (min-width: 1001px){
 h1{
